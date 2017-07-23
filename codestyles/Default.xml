@@ -1,6 +1,5 @@
 <code_scheme name="Default">
   <codeStyleSettings language="PHP">
-    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
   </codeStyleSettings>
 </code_scheme>
