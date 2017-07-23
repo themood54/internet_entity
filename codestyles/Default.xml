@@ -1,1 +1,5 @@
-<code_scheme name="Default" />
+<code_scheme name="Default">
+  <codeStyleSettings language="PHP">
+    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
+  </codeStyleSettings>
+</code_scheme>
