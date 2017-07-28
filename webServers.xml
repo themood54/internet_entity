@@ -7,6 +7,9 @@
       <webServer id="794b6e65-5d5c-4f3e-97a0-0e6abae0bbf8" name="Conscious-internet_entity" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="043c0b38-7694-4ef3-8113-85ef4dca8c05" name="apiaigooglesdk" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
