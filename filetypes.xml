@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="ActionMapping" type="PHP" />
+      <mapping pattern="ActionMappingclass" type="PHP" />
+      <mapping pattern="dialog" type="PHP" />
+      <mapping pattern="dialogclass" type="PHP" />
+    </extensionMap>
+  </component>
+</application>
