@@ -10,6 +10,9 @@
       <webServer id="043c0b38-7694-4ef3-8113-85ef4dca8c05" name="apiaigooglesdk" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="6e6bcf88-0848-4d6b-8ce6-ad57f9312b86" name="messenger-platform-samples-master" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
