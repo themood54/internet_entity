@@ -5,6 +5,7 @@
       <mapping pattern="ActionMappingclass" type="PHP" />
       <mapping pattern="dialog" type="PHP" />
       <mapping pattern="dialogclass" type="PHP" />
+      <mapping ext="lst" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
