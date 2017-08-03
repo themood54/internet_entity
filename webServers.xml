@@ -13,7 +13,7 @@
       <webServer id="6e6bcf88-0848-4d6b-8ce6-ad57f9312b86" name="messenger-platform-samples-master" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="03f1f760-406d-4ee9-8430-dc1d939a6c2a" name="alexia" url="http://localhost">
+      <webServer id="03f1f760-406d-4ee9-8430-dc1d939a6c2a" name="alexia" url="https://localhost:3000">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
