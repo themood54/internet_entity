@@ -16,6 +16,9 @@
       <webServer id="03f1f760-406d-4ee9-8430-dc1d939a6c2a" name="alexia" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="b54b6080-a4ce-4af9-9745-640cc83185a0" name="lexui" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
