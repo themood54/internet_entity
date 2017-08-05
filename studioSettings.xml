@@ -11,7 +11,6 @@
           <list>
             <SdkInfo>
               <option name="sdkType" value="ODPS_CMD" />
-              <option name="version" value="0.26.0" />
               <option name="installedLocation" value="C:\Users\user\.PhpStorm2017.2\config\plugins\odps-studio-intellij\odpscmd_public" />
               <option name="isDefault" value="true" />
             </SdkInfo>
