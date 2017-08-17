@@ -1,0 +1,30 @@
+<application>
+  <component name="libraryTable">
+    <library name="jquery" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__ajax.googleapis.com_ajax_libs_jquery_2.1.4_jquery.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__ajax.googleapis.com_ajax_libs_jquery_2.1.4_jquery.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="twilio" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__media.twiliocdn.com_sdk_js_client_v1.3_twilio.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__media.twiliocdn.com_sdk_js_client_v1.3_twilio.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
