@@ -1,0 +1,13 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="XML" />
+      <blacklist language="PHP">
+        <added pattern="\Twilio\Jwt\ClientToken.allowClientIncoming(clientName)" />
+        <removed pattern="" />
+      </blacklist>
+      <blacklist language="YAML" />
+    </blacklists>
+  </component>
+</application>
