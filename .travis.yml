@@ -7,3 +7,7 @@ php:
   - '7.1'
   - hhvm # on Trusty only
   - nightly
+addons:
+  hosts:
+  - consciouswebapp.com
+  
