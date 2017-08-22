@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="exe" type="Native" />
       <mapping pattern="ActionMapping" type="PHP" />
       <mapping pattern="ActionMappingclass" type="PHP" />
       <mapping pattern="dialog" type="PHP" />

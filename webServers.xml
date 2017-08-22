@@ -19,6 +19,9 @@
       <webServer id="b54b6080-a4ce-4af9-9745-640cc83185a0" name="lexui" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="c992b146-1bce-4fdb-a96b-659b9059ff9d" name="braina" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\Program Files (x86)\Braina" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </application>
