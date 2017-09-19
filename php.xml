@@ -7,9 +7,9 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7">
-        <phpinfo binary_type="PHP" php_cgi="C:\Program Files (x86)\PHP\v7.0\php-cgi.exe" php_cli="C:\Program Files (x86)\PHP\v7.0\php.exe" path_separator=";" version="7.0.15">
+        <phpinfo binary_type="PHP" php_cgi="C:\Program Files (x86)\PHP\php-cgi.exe" php_cli="C:\Program Files (x86)\PHP\php.exe" path_separator=";" version="7.0.15">
           <additional_php_ini />
-          <configuration_file>C:\Program Files (x86)\PHP\v7.0\php.ini</configuration_file>
+          <configuration_file>C:\Program Files (x86)\PHP\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
