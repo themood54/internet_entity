@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" default="all">
+  
+  
+  <property file="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.egg"/>
+    <include name="*.jar"/>
+    <include name="*.ear"/>
+    <include name="*.swc"/>
+    <include name="*.war"/>
+    <include name="*.ane"/>
+    <include name="*.zip"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <property name="project.jdk.home" value=""/>
+  <property name="project.jdk.bin" value=""/>
+  <property name="project.jdk.classpath" value=""/>
+  
+  
+  <!-- Global Libraries -->
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6 -->
+  
+  <dirname property="module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.output.dir" value="undefined"/>
+  <property name="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.testoutput.dir" value="undefined"/>
+  
+  <path id="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.module.production.classpath"/>
+  
+  <path id="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.runtime.production.module.classpath"/>
+  
+  <path id="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.module.classpath"/>
+  
+  <path id="internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.runtime.module.classpath"/>
+  
+  
+  <patternset id="excluded.from.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6">
+    <patternset refid="excluded.from.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6"/>
+  </patternset>
+  
+  
+  <target name="compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" depends="compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.production,compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.tests" description="Compile module internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6"/>
+  
+  <target name="compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.production" depends="register.custom.compilers" description="Compile module internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6; production classes"/>
+  
+  <target name="compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.tests" depends="register.custom.compilers,compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.production" description="compile module internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" description="cleanup module">
+    <delete dir="${internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.output.dir}"/>
+    <delete dir="${internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.internet_entity-cf922d9535c89bee6bb5f331361d60f8551827f6" description="build all modules"/>
+  
+  <target name="all" depends="build.modules" description="build all"/>
+</project>

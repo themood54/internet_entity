@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="application">
+            <element name="component">
+                <attribute name="name">
+                    <data type="NCName"/>
+                </attribute>
+                <element name="option">
+                    <attribute name="name">
+                        <data type="NCName"/>
+                    </attribute>
+                    <oneOrMore>
+                        <element name="webServer">
+                            <attribute name="id"/>
+                            <attribute name="name">
+                                <data type="NCName"/>
+                            </attribute>
+                            <attribute name="url">
+                                <data type="anyURI"/>
+                            </attribute>
+                            <element name="fileTransfer">
+                                <attribute name="accessType">
+                                    <data type="NCName"/>
+                                </attribute>
+                                <attribute name="port">
+                                    <data type="integer"/>
+                                </attribute>
+                            </element>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </element>
+        </element>
+    </start>
+</grammar>

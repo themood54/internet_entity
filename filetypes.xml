@@ -1,14 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="exe" type="Native" />
       <mapping pattern="ActionMapping" type="PHP" />
       <mapping pattern="ActionMappingclass" type="PHP" />
       <mapping pattern="dialog" type="PHP" />
       <mapping pattern="dialogclass" type="PHP" />
-      <mapping pattern="8ffa10204425d2ec2796712cac42fab9" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
-      <mapping pattern="c2ac02bd31eb581d208d829f70c5de2d" type="PLAIN_TEXT" />
       <mapping ext="lst" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="Vue.js" />
     </extensionMap>
